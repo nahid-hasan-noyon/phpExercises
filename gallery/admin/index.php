@@ -1,3 +1,4 @@
+<?php require_once("includes/init.php"); ?>
 <?php include("includes/header.php"); ?>
 
 <!-- Navigation -->
