@@ -9,10 +9,25 @@
             </h1>
 
             <?php
-            $sql = "SELECT * FROM users where id=1";
-            $result = $database->query($sql);
-            $user_found = mysqli_fetch_array($result);
-            echo $user_found['username'];
+
+            // $found_user = User::find_user_by_id(1);
+            // $user = User::instantation($found_user);
+            // echo $user->id . "<br>" . $user->username . "<br>" . $user->password . "<br>" . $user->first_name . "<br>" . $user->last_name;
+
+
+
+
+            // $users = User::find_all_users();
+
+            // foreach ($users as $user) {
+            //     echo $user->username . "<br>";
+            // }
+
+            $found_user = User::find_user_by_id(2);
+            echo $found_user->username . "<br>";
+
+            //$photos = new photos();
+
 
             ?>
 
