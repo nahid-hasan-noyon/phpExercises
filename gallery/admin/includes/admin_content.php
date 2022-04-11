@@ -26,7 +26,6 @@
             $found_user = User::find_user_by_id(2);
             echo $found_user->username . "<br>";
 
-            //$photos = new photos();
 
 
             ?>
