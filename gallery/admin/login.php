@@ -1,4 +1,4 @@
-<?php require_once("init.php"); ?>
+<?php require_once("includes/header.php"); ?>
 
 <?php
 
@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
 
 ?>
 
-<div class="col-md-4 col-md-offset-5">
+<div class="col-md-4 col-md-offset-4">
     <form action="" method="post">
         <div class="form-group">
             <label for="username">Username</label>
