@@ -21,7 +21,7 @@
                         <a href="#">Services</a>
                     </li>
                     <li>
-                        <a href="admin">Admin</a>
+                        <a href="admin/">Admin</a>
                     </li>
                 </ul>
             </div>

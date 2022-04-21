@@ -13,11 +13,11 @@ function classAutoLoader($class)
     } else {
         die("This file name {$class}.php was not found ....");
     }
-
-    function redirect($location)
-    {
-        header("location: {$location}");
-    }
+    
 }
 
 spl_autoload_register('classAutoLoader');
+function redirect($location)
+{
+    header("location: {$location}");
+}

@@ -40,8 +40,8 @@ class Session
 
     public function logout()
     {
-        unset($user_id);
         unset($_SESSION['user_id']);
+        unset($this->user_id);
         $this->is_signed = false;
     }
 
