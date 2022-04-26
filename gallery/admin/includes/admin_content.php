@@ -36,12 +36,15 @@
             // $user->create();
 
             // * Update a user manually 
-            $user = User::find_user_by_id(2);
+            // $user = User::find_user_by_id(2);
+            // $user->last_name = "dekhen";
 
-            $user->last_name = "dekhen";
+            // $user->update();
 
-            $user->update();
+            // * Delete a user
+            // $user = User::find_user_by_id(2);
 
+            // $user->delete();
 
 
             ?>
