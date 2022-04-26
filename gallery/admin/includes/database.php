@@ -47,8 +47,8 @@ class Database
 
     public function the_inset_id()
     {
-        // return mysqli_insert_id($this->connection);
-        return $this->connection->insert_id;
+        return mysqli_insert_id($this->connection);
+        // return $this->connection->insert_id;
     }
 }
 

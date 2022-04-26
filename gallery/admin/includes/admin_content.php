@@ -26,6 +26,13 @@
             //? $found_user = User::find_user_by_id(2);
             //? echo $found_user->username . "<br>";
 
+            $user = new User();
+            $user->username = "Username";
+            $user->password = "Password";
+            $user->first_name = "Ab";
+            $user->last_name = "dekho";
+
+            $user->create();
 
 
             ?>
