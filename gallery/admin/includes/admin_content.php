@@ -46,6 +46,20 @@
 
             // $user->delete();
 
+            // * Checking id then creating or updating info
+            // $user = User::find_user_by_id(1);
+            // $user->username = "nahid";
+            // $user->save();
+
+            // $user = new User();
+            // $user->password = "123456";
+            // $user->save();
+
+
+
+
+
+
 
             ?>
 
